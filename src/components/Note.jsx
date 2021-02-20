@@ -4,7 +4,10 @@ import NoteDate from './NoteDate'
 const Note = () => {
   return (
     <div>
-      <NoteDate datetime={new Date().toLocaleString()} />
+      <NoteDate
+        isoDate={new Date().toISOString()}
+        localeDate={new Date().toLocaleString()}
+      />
     </div>
   )
 }
