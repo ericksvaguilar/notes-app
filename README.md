@@ -2,7 +2,7 @@
 
 <p align='center'>This project is an attempt to make a Notes App using my basic knowledge of React.</p>
 
-<h4>Status: :construction: In progress...</h4>
+<h4 align='center'>Status: :construction: In progress...</h4>
 
 ## Start the Project
 
