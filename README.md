@@ -7,5 +7,4 @@
 ## Start the Project
 
 In the project directory:
-
-### `npm start`
+`npm start`
