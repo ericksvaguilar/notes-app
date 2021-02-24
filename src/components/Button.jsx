@@ -1,7 +1,5 @@
 import React from 'react'
 
-const Button = props => {
-  return <button>{props.buttonName}</button>
+export function Button() {
+  return <button>Add new note</button>
 }
-
-export default Button
