@@ -4,8 +4,16 @@
 
 <h4 align='center'>Status: :construction: In progress...</h4>
 
+<p align='center'>
+  <a href='technologies-used'>Technologies Used</a> ·
+  <a href='start-the-project'>Start the Project</a>
+</p>
+
+## Technologies Used
+- CSS Modules
+- React.js
+
 ## Start the Project
 
 In the project directory:
-
-### `npm start`
+`npm start`
