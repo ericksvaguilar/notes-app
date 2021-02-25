@@ -7,4 +7,10 @@
 body {
   background-color: #121212;
   color: rgba(255, 255, 255, 0.719);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  font-family: 'Roboto', sans-serif;
 }
