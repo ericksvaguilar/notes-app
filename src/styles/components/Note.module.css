@@ -13,3 +13,19 @@
   border-bottom: 1px solid grey;
   margin-bottom: 1rem;
 }
+
+.noteContainer p {
+  margin-bottom: 1rem;
+}
+
+.edit {
+  cursor: pointer;
+
+  border: none;
+  border-radius: 4px;
+  padding: 0.3rem;
+
+  background: #fee282;
+
+  text-transform: uppercase;
+}

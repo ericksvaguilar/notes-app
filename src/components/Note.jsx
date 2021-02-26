@@ -1,19 +1,8 @@
-import React, { useEffect, useState } from 'react'
-
-import styles from '../styles/components/Note.module.css'
+import React, { useContext } from 'react'
+import { NoteContext } from '../contexts/NoteContext'
 
 export function Note() {
-  const [createdAt, setCreatedAt] = useState('')
-
-  // Set date when the component is created
-  useEffect(() => {
-    setCreatedAt(new Date().toLocaleString('pt-br'))
-  }, [])
-
-  return (
-    <div className={styles.noteContainer}>
-      <h2>Note Title</h2>
-      <p>{createdAt}</p>
-    </div>
-  )
+  const { notes } = useContext(NoteContext)
+  console.log(notes[1])
+  return <div>{notes[0]}</div>
 }
