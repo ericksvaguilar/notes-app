@@ -11,10 +11,12 @@
 </p>
 
 ## Technologies Used
+
 - CSS Modules
 - React.js
 
 ## Features
+
 - [ ] User can create a note
 - [ ] User can edit a note
 - [ ] User can delete a note
@@ -23,4 +25,7 @@
 ## Start the Project
 
 In the project directory:
-`npm start`
+
+```bash
+  npm start
+```
