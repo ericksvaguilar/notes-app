@@ -3,6 +3,12 @@ import { NoteContext } from '../contexts/NoteContext'
 
 export function Note() {
   const { notes } = useContext(NoteContext)
-  console.log(notes[1])
-  return <div>{notes[0]}</div>
+
+  return (
+    <div>
+      {notes.map(note => (
+        <li key={String(note)}>{note}</li>
+      ))}
+    </div>
+  )
 }
