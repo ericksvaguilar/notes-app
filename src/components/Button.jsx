@@ -5,12 +5,12 @@ import styles from '../styles/components/Button.module.css'
 export function Button() {
   const { addNote, inputNote } = useContext(NoteContext)
 
-  function handleClick() {
+  function handleSubmit() {
     addNote(inputNote)
   }
 
   return (
-    <button className={styles.button} onClick={handleClick}>
+    <button className={styles.button} onSubmit={handleSubmit}>
       New Note
     </button>
   )
