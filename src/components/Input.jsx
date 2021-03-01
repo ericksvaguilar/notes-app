@@ -1,5 +1,11 @@
 import React from 'react'
 
 export function Input() {
-  return <div></div>
+  function handleChange({ target }) {}
+
+  return (
+    <div>
+      <input type='text' onChange={handleChange} />
+    </div>
+  )
 }
