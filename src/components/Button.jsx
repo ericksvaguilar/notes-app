@@ -1,5 +1,4 @@
-import React, { useContext } from 'react'
-import { NoteContext } from '../contexts/NoteContext'
+import React from 'react'
 import styles from '../styles/components/Button.module.css'
 
 export function Button() {
