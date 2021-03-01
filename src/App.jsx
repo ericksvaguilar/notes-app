@@ -12,8 +12,10 @@ function App() {
     <NoteProvider>
       <div className={styles.app}>
         <h1>React Note</h1>
-        <Input />
-        <Button />
+        <Input>
+          <Button />
+        </Input>
+
         <Note />
       </div>
     </NoteProvider>
