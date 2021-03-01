@@ -10,8 +10,14 @@ export function NoteProvider({ children }) {
     setNotes(prev => [...prev, note])
   }
 
+  function removeNote(value) {
+    setNotes(notes.filter(currNote => currNote !== value))
+  }
+
   return (
-    <NoteContext.Provider value={{ notes, addNote, inputNote, setInputNote }}>
+    <NoteContext.Provider
+      value={{ notes, addNote, removeNote, inputNote, setInputNote }}
+    >
       {children}
     </NoteContext.Provider>
   )
