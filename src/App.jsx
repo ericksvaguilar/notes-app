@@ -15,7 +15,6 @@ function App() {
         <Form>
           <Button />
         </Form>
-
         <Note />
       </div>
     </NoteProvider>
