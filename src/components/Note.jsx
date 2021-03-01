@@ -4,10 +4,6 @@ import { NoteContext } from '../contexts/NoteContext'
 export function Note() {
   const { notes, removeNote } = useContext(NoteContext)
 
-  function handleRemoveNote(value) {
-    removeNote(value)
-  }
-
   return (
     <div>
       {notes.map(note => (
