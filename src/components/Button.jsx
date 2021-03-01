@@ -3,10 +3,10 @@ import { NoteContext } from '../contexts/NoteContext'
 import styles from '../styles/components/Button.module.css'
 
 export function Button() {
-  const { addNote } = useContext(NoteContext)
+  const { addNote, inputNote } = useContext(NoteContext)
 
   function handleClick() {
-    addNote('Olá')
+    addNote(inputNote)
   }
 
   return (
