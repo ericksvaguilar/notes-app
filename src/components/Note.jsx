@@ -12,6 +12,7 @@ export function Note() {
     <div>
       {notes.map(note => (
         <>
+          {/* // TODO: Use an ID as the key, so equal notes can be deleted individually */}
           <li key={String(note)}>
             <input type='text' readOnly='true' value={note} />
             <button type='button' onClick={() => removeNote(note)}>

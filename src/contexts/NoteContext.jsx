@@ -10,6 +10,7 @@ export function NoteProvider({ children }) {
     setNotes(prev => [...prev, note])
   }
 
+  // TODO: This method should use an ID to delete the note, so equal notes can be deleted individually
   function removeNote(value) {
     setNotes(notes.filter(currNote => currNote !== value))
   }
