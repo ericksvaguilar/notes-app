@@ -3,7 +3,7 @@ import styles from './styles/App.module.css'
 
 import { Button } from './components/Button'
 import { Note } from './components/Note'
-import { Input } from './components/Input'
+import { Form } from './components/Form'
 
 import { NoteProvider } from './contexts/NoteContext'
 
@@ -12,9 +12,9 @@ function App() {
     <NoteProvider>
       <div className={styles.app}>
         <h1>React Note</h1>
-        <Input>
+        <Form>
           <Button />
-        </Input>
+        </Form>
 
         <Note />
       </div>

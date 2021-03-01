@@ -1,9 +1,9 @@
 import React, { useContext } from 'react'
 import { NoteContext } from '../contexts/NoteContext'
 
-import styles from '../styles/components/Input.module.css'
+import styles from '../styles/components/Form.module.css'
 
-export function Input(props) {
+export function Form(props) {
   const { addNote, inputNote, setInputNote } = useContext(NoteContext)
 
   function handleChange({ target }) {
