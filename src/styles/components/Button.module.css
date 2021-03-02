@@ -1,4 +1,9 @@
 .button {
+  /* Disable browser builtin styles */
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+
   font-size: 0.875rem;
 
   text-transform: uppercase;
