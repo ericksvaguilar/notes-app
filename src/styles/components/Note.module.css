@@ -28,9 +28,11 @@ button {
 
 .noteContainer li input {
   border-radius: 5px 0 0 5px;
+  width: 80%;
 }
 
 .noteContainer li button {
+  width: 10%;
   cursor: pointer;
   text-transform: uppercase;
   background-color: tomato;
