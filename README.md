@@ -5,10 +5,14 @@
 <h4 align='center'>Status: :construction: In progress...</h4>
 
 <p align='center'>
+  <a href='live-preview'>Live Preview</a> ·
   <a href='technologies-used'>Technologies Used</a> ·
   <a href='features'>Features</a> ·
   <a href='start-the-project'>Start the Project</a>
 </p>
+
+## Live Preview
+https://notes-app-eight.vercel.app/
 
 ## Technologies Used
 
