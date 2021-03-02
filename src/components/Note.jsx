@@ -6,12 +6,11 @@ export function Note() {
 
   return (
     <div>
-      {notes.map(note => (
+      {notes.map((note, idx) => (
         <>
-          {/* // TODO: Use an ID as the key, so equal notes can be deleted individually */}
-          <li key={String(note)}>
+          <li key={note}>
             <input type='text' readOnly='true' value={note} />
-            <button type='button' onClick={() => removeNote(note)}>
+            <button type='button' onClick={() => removeNote(idx)}>
               Remove
             </button>
           </li>
