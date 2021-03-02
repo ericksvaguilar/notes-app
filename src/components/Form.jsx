@@ -1,5 +1,6 @@
 import React, { useContext } from 'react'
 import { NoteContext } from '../contexts/NoteContext'
+import { nanoid } from 'nanoid'
 
 import styles from '../styles/components/Form.module.css'
 
@@ -12,7 +13,7 @@ export function Form(props) {
 
   function handleSubmit(e) {
     e.preventDefault()
-    addNote(inputNote)
+    addNote({ id: nanoid(), text: inputNote })
   }
 
   return (
