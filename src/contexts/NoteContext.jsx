@@ -10,8 +10,8 @@ export function NoteProvider({ children }) {
     setNotes(prev => [note, ...prev])
   }
 
-  function removeNote(index) {
-    setNotes(notes.filter((_, idx) => idx !== index))
+  function removeNote(id) {
+    setNotes(notes.filter(note => note.id !== id))
   }
 
   return (
