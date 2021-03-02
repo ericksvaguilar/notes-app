@@ -5,9 +5,7 @@
 
   margin: 1rem 0;
   padding: 1rem;
-}
 
-.noteContainer ul {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -18,28 +16,41 @@
   list-style: none;
   text-align: center;
   margin: 1rem 0;
+
+  display: flex;
 }
 
 .noteContainer li input,
 button {
-  padding: 0.5rem;
+  padding: 0.3rem;
   border: none;
+  font-size: 1rem;
 }
 
 .noteContainer li input {
   border-radius: 5px 0 0 5px;
-  width: 80%;
 }
 
 .noteContainer li button {
-  width: 10%;
   cursor: pointer;
   text-transform: uppercase;
-  background-color: tomato;
   font-weight: 500;
-  border-radius: 0 5px 5px 0;
-
   transition: filter 1s ease;
+  height: 100%;
+}
+
+.edit,
+.delete {
+  width: 32px;
+}
+
+.edit {
+  background-color: #f3cc4d;
+}
+
+.delete {
+  background-color: #ef6562;
+  border-radius: 0 5px 5px 0;
 }
 
 @media (hover: hover) {
