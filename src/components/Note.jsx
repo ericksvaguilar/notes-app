@@ -11,14 +11,12 @@ export function Note() {
       {notes.length > 0 ? (
         <ul className={styles.noteContainer}>
           {notes.map(note => (
-            <>
-              <li key={note.id}>
-                <input type='text' readOnly={true} value={note.text} />
-                <button type='button' onClick={() => removeNote(note.id)}>
-                  X
-                </button>
-              </li>
-            </>
+            <li key={note.id}>
+              <input type='text' readOnly={true} value={note.text} />
+              <button type='button' onClick={() => removeNote(note.id)}>
+                X
+              </button>
+            </li>
           ))}
         </ul>
       ) : (
