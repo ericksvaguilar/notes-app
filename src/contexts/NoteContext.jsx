@@ -7,7 +7,7 @@ export function NoteProvider({ children }) {
   const [inputNote, setInputNote] = useState('')
 
   function addNote(note) {
-    setNotes(prev => [...prev, note])
+    setNotes(prev => [note, ...prev])
   }
 
   function removeNote(index) {
