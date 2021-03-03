@@ -30,6 +30,7 @@ https://notes-app-eight.vercel.app/
 ## Start the Project
 
 In the project directory:
+
   `npm install`
   
   `npm start`
