@@ -11,7 +11,7 @@ function App() {
   return (
     <NoteProvider>
       <div className={styles.app}>
-        <h1>React Note</h1>
+        <h1>React Notes</h1>
         <Form>
           <Button />
         </Form>
