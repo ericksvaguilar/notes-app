@@ -2,7 +2,7 @@
 
 <p align='center'>This project is an attempt to make a Notes App using my basic knowledge of React.</p>
 
-<h4 align='center'>Status: :construction: In progress...</h4>
+<h4 align='center'>Status: ✅ Finished</h4>
 
 <p align='center'>
   <a href='live-preview'>Live Preview</a> ·
@@ -25,7 +25,7 @@ https://notes-app-eight.vercel.app/
 - [x] ~~User can create a note~~
 - [x] ~~User can edit a note~~
 - [x] ~~User can delete a note~~
-- [ ] When closing the browser window the notes will be stored and when the User returns, the data will be retrieved
+- [x] When closing the browser window the notes will be stored and when the User returns, the data will be retrieved
 
 ## Start the Project
 
