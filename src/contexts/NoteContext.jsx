@@ -1,9 +1,11 @@
-import { createContext, useState } from 'react'
+import { createContext, useEffect, useState } from 'react'
 
 export const NoteContext = createContext()
 
 export function NoteProvider({ children }) {
-  const [notes, setNotes] = useState([])
+  const [notes, setNotes] = useState(
+    JSON.parse(localStorage.getItem('notes')) ?? []
+  )
   const [inputNote, setInputNote] = useState('')
 
   function addNote(note) {
@@ -20,6 +22,10 @@ export function NoteProvider({ children }) {
     tempArray[index] = note
     setNotes(tempArray)
   }
+
+  useEffect(() => {
+    localStorage.setItem('notes', JSON.stringify(notes))
+  }, [notes])
 
   return (
     <NoteContext.Provider
