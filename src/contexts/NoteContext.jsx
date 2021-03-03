@@ -14,9 +14,23 @@ export function NoteProvider({ children }) {
     setNotes(notes.filter(note => note.id !== id))
   }
 
+  function editNote(note) {
+    const index = notes.indexOf(note)
+    const tempArray = [...notes]
+    tempArray[index] = note
+    setNotes(tempArray)
+  }
+
   return (
     <NoteContext.Provider
-      value={{ notes, addNote, removeNote, inputNote, setInputNote }}
+      value={{
+        notes,
+        addNote,
+        removeNote,
+        inputNote,
+        setInputNote,
+        editNote,
+      }}
     >
       {children}
     </NoteContext.Provider>
