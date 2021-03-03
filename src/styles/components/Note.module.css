@@ -40,8 +40,10 @@ button {
 }
 
 .edit,
-.delete {
+.delete,
+.save {
   width: 32px;
+  height: 100%;
 }
 
 .edit {
@@ -51,6 +53,10 @@ button {
 .delete {
   background-color: #ef6562;
   border-radius: 0 5px 5px 0;
+}
+
+.save {
+  background-color: #aaf255;
 }
 
 @media (hover: hover) {
