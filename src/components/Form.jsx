@@ -13,7 +13,7 @@ export function Form(props) {
 
   function handleSubmit(e) {
     e.preventDefault()
-    addNote({ id: nanoid(), text: inputNote })
+    addNote({ id: nanoid(), text: inputNote, isEditing: false })
   }
 
   return (
