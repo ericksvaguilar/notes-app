@@ -25,7 +25,7 @@ https://notes-app-eight.vercel.app/
 - [x] ~~User can create a note~~
 - [x] ~~User can edit a note~~
 - [x] ~~User can delete a note~~
-- [x] When closing the browser window the notes will be stored and when the User returns, the data will be retrieved
+- [x] ~~When closing the browser window the notes will be stored and when the User returns, the data will be retrieved~~
 
 ## Start the Project
 
