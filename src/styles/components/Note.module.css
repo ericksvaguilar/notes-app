@@ -22,13 +22,16 @@
 
 .noteContainer li input,
 button {
+  font-family: inherit;
   padding: 0.3rem;
   border: none;
   font-size: 1rem;
+  user-select: none;
 }
 
 .noteContainer li input {
   border-radius: 5px 0 0 5px;
+  color: #272727;
 }
 
 .noteContainer li button {
@@ -66,7 +69,7 @@ button {
 }
 
 @media (hover: hover) {
-  .noteContainer li button:hover {
-    filter: contrast(0.9);
+  button:hover {
+    filter: brightness(0.9);
   }
 }
