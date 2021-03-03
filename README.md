@@ -30,8 +30,5 @@ https://notes-app-eight.vercel.app/
 ## Start the Project
 
 In the project directory:
-
-```bash
-  npm install
-  npm start
-```
+  `npm install`
+  `npm start`
