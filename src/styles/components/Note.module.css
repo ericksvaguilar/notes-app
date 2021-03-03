@@ -36,7 +36,6 @@ button {
   text-transform: uppercase;
   font-weight: 500;
   transition: filter 1s ease;
-  height: 100%;
 }
 
 .edit,
@@ -57,6 +56,14 @@ button {
 
 .save {
   background-color: #aaf255;
+}
+
+.noteContainer textarea {
+  font-family: inherit;
+  padding: 0.4rem;
+  font-size: 1.1rem;
+  border-radius: 5px 0 5px 5px;
+  resize: none;
 }
 
 @media (hover: hover) {
